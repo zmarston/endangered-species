@@ -1,0 +1,116 @@
+body {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+h1 {
+  position: absolute;
+  top: -200px;
+  left: 465px;
+}
+
+.earth {
+  position: relative;
+  margin-top: 200px;
+}
+
+.animals {
+  width: 120px;
+  border-radius: 100%;
+}
+
+/*african wild ass*/
+#ass{
+  display: inline;
+  position: absolute;
+  top: 250px;
+  left: 800px;
+}
+
+#ass:hover + .common-name::after {
+  content: " African Wild Ass"
+}
+
+/*beluga*/
+#beluga{
+  display: inline;
+  position: absolute;
+  top: 780px;
+  left: 900px;
+}
+
+#beluga:hover + .common-name::after {
+  content: " African Wild Ass"
+}
+
+/*Brazilian three-toed sloth*/
+#sloth{
+  display: inline;
+  position: absolute;
+  top: 400px;
+  left: 550px;
+}
+
+/*Golden Rumped Tamarin*/
+#tamarin{
+  display: inline;
+  position: absolute;
+  top: 550px;
+  left: 580px;
+}
+
+/*Leopard*/
+#leopard{
+  display: inline;
+  position: absolute;
+  top: 175px;
+  left: 1050px;
+}
+
+/*long-tailed goral*/
+#goral{
+  display: inline;
+  position: absolute;
+  top: 65px;
+  left: 900px;
+}
+
+/*ocelot*/
+#ocelot{
+  display: inline;
+  position: absolute;
+  top: 150px;
+  left: 385px;
+}
+
+/*ornate flying fox*/
+#fox{
+  display: inline;
+  position: absolute;
+  top: 580px;
+  left: 1430px;
+}
+
+/*snub nosed monkey */
+#monkey{
+  display: inline;
+  position: absolute;
+  top: 350px;
+  left: 950px;
+}
+
+/*arunachal macaque*/
+#macaque{
+  display: inline;
+  position: absolute;
+  top: 250px;
+  left: 1220px;
+}
+
+/*hairy little fruit bat*/
+#bat{
+  display: inline;
+  position: absolute;
+  top: 470px;
+  left: 430px;
+}
